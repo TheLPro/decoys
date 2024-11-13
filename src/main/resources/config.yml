@@ -1,0 +1,49 @@
+#
+#
+#                    DECOYS PLUGIN CONFIG
+#
+#                NOT REMOVE OR CHANGE VALUE NAMES
+#     (you can change values just don't change their names)
+#
+#
+
+#decoy spawn cooldown in seconds
+spawn-cooldown: 60
+
+#decoy despawn cooldown in seconds
+despawn-cooldown: 10
+
+#choose if decoys should use player's Minecraft name or display name (ex. you change you name with /nick from EssentialsX)
+#true=will use display name
+#false=will use account name
+use-display-name: true
+
+#choose if you want to append text at the end of the decoys name (ex. "Player's Decoy")
+#$player will be replaced with playername
+decoy-name: "$player"
+
+#choose if you want the NPC to look towards the nearest player
+lookclose: true
+
+#choose if you want the NPC to move around like a player
+pathfinding: true
+
+#choose the type of pathfinding if above value is enabled
+#applicable types:
+#follownearest, random
+pathfinding-method: "random"
+
+#choose the speed modifier of decoys in %
+#sprinting modifier is 30%, but remember that decoys have PERFECT pathfinding
+#putting 0 here as the value will make them walk normal speed (not sprinting)
+speed-modifier: 0
+
+#choose what item the decoy will be holding
+#applicable items:
+#slot - defaults to slot 1
+#none - makes the decoys hold no item
+decoy-item: "slot"
+
+#change the decoy item name
+#you can use color codes here with &
+item-name: "&lDecoy"
